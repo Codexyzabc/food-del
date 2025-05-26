@@ -1,0 +1,42 @@
+.list-table-format-add-food {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.list-table-format-add-food {
+    font-size: medium;
+}
+
+.list-table-format-add-food.title {
+    background-color: #f9f9f9;
+}
+
+.list-table {
+    margin-bottom: 30px;
+}
+
+.list-table-format-add-food img {
+    width: 70px;
+}
+
+.list-table-format-add-food.content {
+    border-top: none;
+}
+
+@media (max-width:600px) {
+    .list-table-format-add-food {
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    }
+    .list-table {
+        border-top: 1px solid #cacaca;
+    }
+    .list-table-format-add-food.title {
+        display: none;
+    }
+}
