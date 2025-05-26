@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
-import FeedBack from './components/FeedBack/FeedBack'
+import FeedBack from "./components/Feedback/Feedback"
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
