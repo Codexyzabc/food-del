@@ -11,7 +11,7 @@ const StoreContextProvider = props => {
     const [email, setEmail] = useState(localStorage.getItem('email') || '');
     const [food_list, setFoodList] = useState([])
     const [discount, setDiscount] = useState(0)
-    const url = "http://localhost:4000"
+    const url = "https://food-del-backend-olcs.onrender.com"
     const deliveryFee = 30
 
     const fetchFoodList = async () => {
